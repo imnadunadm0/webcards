@@ -18,9 +18,10 @@ body {
 
 /*** CARD STLES ***/
 .cards-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%
   
 }
 
@@ -34,15 +35,15 @@ body {
 .card-one {
   position: relative;
   width: 300px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.4);
-  text-align: center;
+  
 }
 .card-one header {
   position: relative;
   width: 100%;
   height: 60px;
-  background-color: rgb(189, 30, 30);
+  background-color: rgb(180, 245, 60);
 }
 .card-one header::before, .card-one header::after {
   content: "";
@@ -86,6 +87,8 @@ body {
   position: relative;
   margin: 80px 0 30px;
   text-align: center;
+  color: rgb(255, 255, 255);
+
 }
 .card-one h3::after {
   content: "";
@@ -95,7 +98,7 @@ body {
   margin-left: -15px;
   width: 30px;
   height: 1px;
-  background: #000;
+  background: rgb(0, 0, 0);
 }
 .card-one .desc {
   padding: 0 1rem 2rem;
@@ -113,7 +116,7 @@ body {
   width: 33.333333%;
   float: left;
   text-align: center;
-  color: rgb(189, 30, 30);
+  color: rgb(180, 245, 60);
 }
 .card-one .contacts a:hover {
   color: rgb(0, 0, 0);
@@ -146,7 +149,7 @@ body {
   width: 0;
   height: 0;
   transform: translate(-50%, -50%);
-  background:  rgb(189, 30, 30);
+  background:  rgb(180, 245, 60);
   transition: width 0.3s, height 0.3s;
 }
 .card-one .contacts a:last-of-type .fa {
@@ -155,7 +158,7 @@ body {
 .card-one footer {
   position: relative;
   padding: 1rem;
-  background-color: rgb(189, 30, 30);
+  background-color: rgb(180, 245, 60);
   text-align: center;
 }
 .card-one footer a {
@@ -173,7 +176,7 @@ body {
   left: 50%;
   margin-left: -15px;
   border: 15px solid transparent;
-  border-bottom-color: rgb(189, 30, 30);
+  border-bottom-color: rgb(180, 245, 60);
 }
 
 /*** RESPONSIVE ***/
@@ -184,4 +187,3 @@ body {
     margin-right: auto;
   }
 }
-
